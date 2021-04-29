@@ -30,6 +30,16 @@ Attempt computations mostly or nearly wholly on GPU via TransformFeedbacks.  Exp
 
 ## Immediate Goals / TODOS:
 
-1. Setup to render some dots on the screen directly.  Place in plane with z=0 to make them 2D.
-2. Do a 2D simulation of gravity with these dots using Newton's laws:
-  a) Modify Newton's law by scaling for reasonable units.
+[DONE] 1. Setup to render some dots on the screen directly.  Place in plane with z=0 to make them 2D.
+[DONE] 2. Do a 2D simulation of gravity with these dots using Newton's laws:
+  [DONE] a) Modify Newton's law by scaling for reasonable units.
+[DONE] 3.  2D collision and merge using simple radius / distance.  Use simple ratioed mass / velocity.
+[DONE] 4.  Line trails.
+5.  Super-nova.
+6.  Render simple sprite in 3D space.
+7.  Add camera controls.
+8.  Modify sprite to be view plane aligned.
+9.  Add several sprites.
+10. Try to do simple system (Sun + Earth) in 3D.
+11. Need to figure Z components of position, velocity, and acceleration.
+
